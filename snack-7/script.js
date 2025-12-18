@@ -20,4 +20,10 @@ const students = [
 ];
 
 // Recupera i dati dello studente con id 2
+const studentArray = students.filter(studente =>{
+  if(studente.id === 2){
+    return true
+  } return false 
+})
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+console.log(studentArray);
